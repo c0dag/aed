@@ -13,20 +13,27 @@ class No<T>{
     }
 
     public T getDado() {
-        return dado;
+        return this.dado;
+
     }
 
     public void setDado(T dado) {
         this.dado = dado;
     }
 
-    public No<T> getNo() {
+    public No<T> getNextNo() {
         return nextNo;
     }
 
-    public void setNo(No<T> nextNo) {
+    public void setNextNo(No<T> nextNo) {
         this.nextNo = nextNo;
     }
+
+    @Override
+    public String toString(){
+        return "{" + getDado() + "}";
+    }
+    
 }
 
 
