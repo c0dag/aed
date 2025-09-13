@@ -1,7 +1,7 @@
 public class Principal{
     public static void main(String[] args) {
         
-        Lista<String> lista = new Lista<String>("Alunos");
+        ListaDupla<String> lista = new ListaDupla<String>("Alunos");
 
         lista.imprimeLista();
         lista.addInicio("Rafael");
