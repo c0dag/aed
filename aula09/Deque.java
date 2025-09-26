@@ -116,9 +116,9 @@ public class Deque<T> {
 
     public int tamanhoDeque(){
         if(ultimoNo == null){
-            return null;
+            return 0;
         } else {
-            retrun ultimoNo.getIndex()+1;
+            return ultimoNo.getIndex()+1;
         }
 
     }
